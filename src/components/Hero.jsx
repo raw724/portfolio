@@ -1,0 +1,28 @@
+import React from 'react';
+
+export default function Hero() {
+  return (
+    <section id="home" className="pt-28 pb-20">
+      <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-8 items-center">
+        <div>
+          <h1 className="text-5xl lg:text-6xl font-extrabold leading-tight">Russell Walton</h1>
+          <p className="mt-4 text-lg text-[--muted] max-w-xl">
+            Computer Science undergraduate at the University of Exeter. Driven by energy, leadership, and creativity — I build polished, high-performance web experiences.
+          </p>
+          <div className="mt-6 flex gap-4">
+            <a href="#projects" className="btn btn-primary">View Projects</a>
+            <a href="#contact" className="btn btn-ghost">Get in touch</a>
+          </div>
+        </div>
+        <div className="glass p-6 rounded-2xl">
+          <div className="text-center">
+            <h3 className="text-xl font-semibold">Senior Dinghy Instructor</h3>
+            <p className="text-[--muted] text-sm mt-2">RYA Qualified • Leadership & Coaching</p>
+            <p className="mt-4 text-sm">me@russellwalton.com</p>
+            <p className="text-sm">07797 770500</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
