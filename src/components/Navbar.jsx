@@ -15,6 +15,7 @@ export default function Navbar({ theme, setTheme }) {
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
           <a href="#skills">Skills</a>
+          <a href="/gallery" className="text-sm hover:underline">Gallery</a>
           <a href="#contact">Contact</a>
           <button onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} className="btn btn-ghost">
             {theme === 'dark' ? 'Light' : 'Dark'}
