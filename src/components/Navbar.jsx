@@ -8,7 +8,7 @@ export default function Navbar({ theme, setTheme }) {
           <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[--accent-from] to-[--accent-to] flex items-center justify-center text-white font-bold">RW</div>
           <div>
             <div className="text-sm font-semibold">Russell Walton</div>
-            <div className="text-xs text-[--muted]">Ambitious young professional</div>
+            <div className="text-xs text-[--muted]">Activator. Visionary. Do-er.</div>
           </div>
         </div>
         <nav className="hidden md:flex items-center gap-6">
