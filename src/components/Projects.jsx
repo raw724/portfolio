@@ -1,15 +1,15 @@
 import React from 'react';
 
 const projects = [
-  { title: 'Hospitality Operations Tracker', desc: 'Operations dashboard prototype for managing shifts, KPIs and availability.', tech: 'React, Tailwind' },
-  { title: 'Sailing Performance Dashboard', desc: 'Track sailing performance and weather analytics.', tech: 'React, Chart.js' },
-  { title: 'Hyrox Training Log', desc: 'Training planner and tracker for competitive events.', tech: 'React, Firebase' }
+  { title: 'Hyrox', desc: 'Vigorously training in prepartion for my first of many Hyrox events in Manchester, January', tech: 'React, Tailwind' },
+  { title: 'High Perfomance Sailing', desc: 'Sailing competitively on a national and world stage with my sister; yes eek!', tech: 'React, Chart.js' },
+  { title: 'Technical Projects', desc: 'I enjoy working on techincal projects on new exciting initiatives; just like this website.', tech: 'React, Firebase' }
 ];
 
 export default function Projects() {
   return (
     <section id="projects" className="py-16">
-      <h3 className="text-2xl font-bold mb-6">Projects</h3>
+      <h3 className="text-2xl font-bold mb-6">Personal Pursuits</h3>
       <div className="grid md:grid-cols-3 gap-6">
         {projects.map((p, i) => (
           <div key={i} className="glass p-6">
