@@ -1,9 +1,9 @@
 import React from 'react';
 
 const projects = [
-  { title: 'Hyrox', desc: 'Vigorously training in prepartion for my first of many Hyrox events in Manchester, January', tech: 'React, Tailwind' },
-  { title: 'High Perfomance Sailing', desc: 'Sailing competitively on a national and world stage with my sister; yes eek!', tech: 'React, Chart.js' },
-  { title: 'Technical Projects', desc: 'I enjoy working on techincal projects on new exciting initiatives; just like this website.', tech: 'React, Firebase' }
+  { title: 'Hyrox', desc: 'Vigorously training in prepartion for my first of many Hyrox events in Manchester, January'},
+  { title: 'High Perfomance Sailing', desc: 'Sailing competitively on a national and world stage with my sister; yes eek!'},
+  { title: 'Technical Projects', desc: 'I enjoy working on techincal projects on new exciting initiatives; just like this website.'}
 ];
 
 export default function Projects() {
