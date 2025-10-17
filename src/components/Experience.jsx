@@ -7,11 +7,15 @@ export default function Experience() {
       <div className="grid gap-6">
         <div className="glass p-6">
           <h4 className="font-semibold">Manager on Duty — Pizza Express, Jersey</h4>
-          <p className="text-[--muted] mt-2">Leadership, staff coordination, and customer service excellence.</p>
+          <p className="text-[--muted] mt-2">Leadership, maintaining customer service excellence and acting as the face of a leading national brand.</p>
         </div>
         <div className="glass p-6">
-          <h4 className="font-semibold">Senior Dinghy Instructor — RYA</h4>
-          <p className="text-[--muted] mt-2">Led lessons, managed safety, mentored junior instructors.</p>
+          <h4 className="font-semibold">Senior Dinghy Instructor & Sailing Coach — RYA</h4>
+          <p className="text-[--muted] mt-2">Mentor junior instructors, manage safety and adapting lessons to different skill levels, changing weather conditions and ensuring engaging experiences.</p>
+        </div>
+        <div className="glass p-6">
+          <h4 className="font-semibold">Animal Shelter Volunteer, Jersey</h4>
+          <p className="text-[--muted] mt-2">Mentor junior instructors, manage safety and adapting lessons to different skill levels, changing weather conditions and ensuring engaging experiences.</p>
         </div>
       </div>
     </section>
