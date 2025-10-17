@@ -5,7 +5,8 @@ export default function Hero() {
     <section id="home" className="pt-28 pb-20">
       <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-8 items-center">
         <div>
-          <h1 className="text-7xl lg:text-8xl font-extrabold leading-tight text-black dark:text-white tracking-tight transition-colors duration-500" style={{ fontFamily: "'Saira', sans-serif" }}>Russell Walton.</h1>
+          <h1 className="text-7xl lg:text-8xl font-extrabold leading-tight text-[--text] tracking-tight"
+  style={{ fontFamily: "'Saira', sans-serif" }}>Russell Walton.</h1>
           <p className="mt-4 text-lg text-[--muted] max-w-xl">
             Computer Science undergraduate at the University of Exeter. Driven by energy, milestones and vibes.
           </p>
