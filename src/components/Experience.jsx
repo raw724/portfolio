@@ -4,7 +4,7 @@ export default function Experience() {
   return (
     <section id="experience" className="py-16">
       <h3 className="text-2xl font-bold mb-6">Experience</h3>
-      <div className="grid gap-5">
+      <div className="grid gap-3">
         <div className="glass p-6">
           <h4 className="font-semibold">Manager on Duty — Pizza Express, Jersey</h4>
           <p className="text-[--muted] mt-2">Leadership, maintaining customer service excellence and acting as the face of a leading national brand.</p>
