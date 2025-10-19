@@ -12,8 +12,14 @@ export default function App() {
   const [theme, setTheme] = useState('dark');
 
   useEffect(() => {
-    document.documentElement.classList.remove('light', 'dark');
-    document.documentElement.classList.add(theme);
+    // Check if the theme state is different from the class on the element
+    if (theme === 'dark') {
+        document.documentElement.classList.remove('light');
+        document.documentElement.classList.add('dark');
+    } else {
+        document.documentElement.classList.remove('dark');
+        document.documentElement.classList.add('light');
+    }
   }, [theme]);
 
   return (
