@@ -6,3 +6,11 @@ export default defineConfig({
   plugins: [react()],
   base: './',
 })
+
+export default {
+  build: {
+    rollupOptions: {
+      external: ['react-router-dom'],
+    },
+  },
+};
