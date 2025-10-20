@@ -29,10 +29,35 @@ body {
 }
 
 .glass {
+  border-radius: 1rem;
+  backdrop-filter: blur(12px);
+  transition: all 0.3s ease;
+}
+
+/* Light mode holographic glass */
+.light .glass {
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(180, 180, 200, 0.4);
+  box-shadow:
+    0 0 20px rgba(124, 58, 237, 0.08),
+    0 0 40px rgba(6, 182, 212, 0.06);
+}
+
+/* Dark mode glass (you already had this style) */
+:not(.light) .glass {
   background: rgba(255, 255, 255, 0.03);
   border: 1px solid rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(10px);
-  border-radius: 1rem;
+  box-shadow:
+    0 0 25px rgba(124, 58, 237, 0.15),
+    inset 0 0 20px rgba(255, 255, 255, 0.02);
+}
+
+/* Optional hover shimmer */
+.glass:hover {
+  transform: translateY(-4px);
+  box-shadow:
+    0 0 25px rgba(124, 58, 237, 0.25),
+    0 0 35px rgba(6, 182, 212, 0.15);
 }
 
 .btn {
